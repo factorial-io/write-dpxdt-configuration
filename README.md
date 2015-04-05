@@ -9,7 +9,7 @@ small python-helper to generate a set of dxpdt-test-configuration-files for a co
 
 ## Usage
 
-* Run the command via `pyhton write-dpxdt-configuration.py <path-to-your-master-configguration-file>`
+* Run the command via `pyhton write-dpxdt-configuration.py <path-to-your-master-configuration-file>`
 
 ## The master-configuration-file
 
@@ -72,5 +72,5 @@ tests:
 
 ```
 
-This example wil create four yaml-file in the folder `dpxdt-tests`, with four different viewport-sizes. It prefixes every url with the `base_url`-setting.
+This example wil create four yaml-files in the folder `dpxdt-tests`, with four different viewport-sizes. It prefixes every url with the `base_url`-setting.
 

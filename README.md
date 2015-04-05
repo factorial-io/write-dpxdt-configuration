@@ -1,5 +1,5 @@
 # write-dpxdt-configuration
-small python-helper to generate a set of dxpdt-test-configuration-files for a common set of urls
+small python-helper to generate a set of dpxdt-test-configuration-files for a common set of urls
 
 
 ## Installation
@@ -9,11 +9,11 @@ small python-helper to generate a set of dxpdt-test-configuration-files for a co
 
 ## Usage
 
-* Run the command via `pyhton write-dpxdt-configuration.py <path-to-your-master-configuration-file>`
+* Run the command via `python write-dpxdt-configuration.py <path-to-your-master-configuration-file>`
 
 ## The master-configuration-file
 
-The master configuration file stores a set of configurations and a set of urls. The python-utility will create a dpxdt-test-configuration for every configuration found in the master-file, adding all urls as tests for the specific configuration. You can overwrite the config for a given url via a separate config-settings for this url
+The master configuration file stores a set of configurations and a set of urls. The python-utility will create a dpxdt-test-configuration for every configuration found in the master-file, adding all urls as tests for the specific configuration. You can overwrite the config for a given url via a separate config-settings for this url.
 
 ## Example:
 
